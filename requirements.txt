@@ -1,0 +1,4 @@
+python-telegram-bot[job-queue]==21.6
+psycopg[binary]==3.3.4
+aiohttp==3.14.3
+tzdata

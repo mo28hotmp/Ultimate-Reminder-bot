@@ -1,0 +1,9 @@
+name: Ping task-bot
+on:
+  schedule:
+    - cron: "*/20 6-9 * * *"  # every 15 min, 6-23 UTC (skips 23-6 UTC)
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl -f "https://claimitnowtst.onrender.com/tick?key=${{ secrets.TICK_SECRET }}"
