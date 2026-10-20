@@ -6,4 +6,4 @@ jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
-      - run: curl -f "https://claimitnowtst.onrender.com/tick?key=${{ secrets.TICK_SECRET }}"
+      - run: curl -f "https://ultimate-reminder-bot.onrender.com/tick?key=${{ secrets.TICK_SECRET }}"
